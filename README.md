@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Netflix Clone Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Netflix clone built using React, Tailwind CSS, and Firebase. It aims to replicate the core functionalities and design of the popular streaming platform, allowing users to browse movies and TV shows and view details.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User authentication: Sign up, log in, and log out functionalities using Firebase Authentication.
+- Browse movies and TV shows: View a collection of movies and TV shows fetched from a themoviedb.com
+- Movie/TV show details: More information on movies such as title, synopsis, release year included in the main section of the app.
+- Responsive design: The application is optimized for various screen sizes, including desktop, tablet, and mobile.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
+- Firebase: A comprehensive development platform provided by Google for building web and mobile applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Clone the repository: git clone [https://github.com/your-username/netflix-clone.git](https://github.com/JKukielski/netflix_clone_project)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to the project directory: `cd netflix_clone_project`
 
-### `npm run build`
+Install the dependencies: `npm install or yarn install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Set up a Firebase project and enable Firebase Authentication and Firestore database.
+- Create a new configuration file src/config/firebaseConfig.js and add your Firebase project configuration.
+- Replace the data source in the project (e.g., API calls) with your desired data provider.
+- Start the development server: npm start or yarn start
+- Open your web browser and visit http://localhost:3000 to see the app in action.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
